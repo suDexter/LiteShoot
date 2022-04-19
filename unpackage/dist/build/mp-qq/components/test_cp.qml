@@ -1,0 +1,1 @@
+<view><view class="u-m-t-20"><u-cell-group vue-id="678efb19-1" bind:__l="__l" vue-slots="{{['default']}}"><u-cell-item vue-id="{{('678efb19-2')+','+('678efb19-1')}}" icon="rmb-circle" title="支付" data-event-opts="{{[['^click',[['clickPay']]]]}}" bind:click="__e" bind:__l="__l"></u-cell-item></u-cell-group></view></view>

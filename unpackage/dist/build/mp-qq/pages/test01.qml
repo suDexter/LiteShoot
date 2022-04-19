@@ -1,0 +1,1 @@
+<view><text>{{"没做完的个人页，id="+$root.m0}}</text><view class="_br"></view><image src="{{$root.m1}}"></image><u-avatar style="margin-top:15rpx;" vue-id="168aca96-1" src="{{$root.m2}}" size="140" bind:__l="__l"></u-avatar></view>

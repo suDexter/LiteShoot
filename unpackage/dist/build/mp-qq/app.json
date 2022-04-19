@@ -1,0 +1,54 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/user/user",
+    "pages/discover/discover",
+    "pages/message/message",
+    "pages/user/login/login",
+    "pages/user/login/code",
+    "pages/message/chat",
+    "pages/user/order/order",
+    "pages/test",
+    "pages/test00",
+    "pages/test01"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#007AFF",
+    "borderStyle": "black",
+    "backgroundColor": "#F8F8F8",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/images/icon/home.png",
+        "selectedIconPath": "static/images/icon/home-filling.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/discover/discover",
+        "iconPath": "static/images/icon/eye.png",
+        "selectedIconPath": "static/images/icon/browse.png",
+        "text": "发现"
+      },
+      {
+        "pagePath": "pages/message/message",
+        "iconPath": "static/images/icon/email.png",
+        "selectedIconPath": "static/images/icon/news-filling.png",
+        "text": "消息"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "iconPath": "static/images/icon/home.png",
+        "selectedIconPath": "static/images/icon/home-filling.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

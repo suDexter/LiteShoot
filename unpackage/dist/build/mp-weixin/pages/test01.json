@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "测试01",
+  "usingComponents": {
+    "u-avatar": "/uview-ui/components/u-avatar/u-avatar"
+  }
+}

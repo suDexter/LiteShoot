@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "测试00",
+  "usingComponents": {
+    "u-subsection": "/uview-ui/components/u-subsection/u-subsection"
+  }
+}

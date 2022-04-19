@@ -1,0 +1,133 @@
+{
+	"easycom": {
+			"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+		},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path":"pages/index/xinlang",
+			"style": {
+				"navigationBarTitleText": "首",
+				"enablePullDownRefresh": true
+			}
+		},
+		
+		{
+			"path":"pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/user/user",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		},
+		{
+			"path": "pages/discover/discover",
+			"style": {
+				"navigationBarTitleText": "发现",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/message/message",
+			"style": {
+				"navigationBarTitleText": "消息",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/user/login/login",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/user/login/code",
+			"style": {
+				"navigationBarTitleText": "验证码",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/message/chat",
+			"style": {
+				"navigationBarTitleText": "聊天框",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/user/order/order",
+			"style": {
+				"navigationBarTitleText": "订单",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/test",
+			"style": {
+				"navigationBarTitleText": "测试"
+			}
+		},
+		{
+			"path": "pages/test00",
+			"style": {
+				"navigationBarTitleText": "测试00"
+			}
+		},
+		{
+			"path": "pages/test01",
+			"style": {
+				"navigationBarTitleText": "测试01"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#007AFF",
+		"borderStyle": "black",
+		"backgroundColor": "#F8F8F8",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/images/icon/home.png",
+				"selectedIconPath": "static/images/icon/home-filling.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/discover/discover",
+				"iconPath": "static/images/icon/eye.png",
+				"selectedIconPath": "static/images/icon/browse.png",
+				"text": "发现"
+			}, {
+				"pagePath": "pages/message/message",
+				"iconPath": "static/images/icon/email.png",
+				"selectedIconPath": "static/images/icon/news-filling.png",
+				"text": "消息"
+			}, {
+				"pagePath": "pages/user/user",
+				"iconPath": "static/images/icon/home.png",
+				"selectedIconPath": "static/images/icon/home-filling.png",
+				"text": "我的"
+			}
+		]
+	},
+	"condition" : { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [
+			{
+				"name": "", //模式名称
+				"path": "", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到
+			}
+		]
+	}
+}
